@@ -14,4 +14,10 @@ public class IndexController {
 
         return "index";
     }
+
+  public String login(){
+
+        return "login";
+    }
+
 }
