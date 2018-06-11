@@ -20,7 +20,8 @@ public class IndexController {
         return "test";
     }
 
-  public String login(){
+    @RequestMapping("/login")
+    public String login(){
 
         return "login";
     }
