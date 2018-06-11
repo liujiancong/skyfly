@@ -19,4 +19,10 @@ public class IndexController {
     public String test(){
         return "test";
     }
+
+  public String login(){
+
+        return "login";
+    }
+
 }
